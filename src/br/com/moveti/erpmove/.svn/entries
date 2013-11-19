@@ -1,0 +1,31 @@
+10
+
+dir
+87
+svn+ssh://192.168.0.101/SVN/mvtFiscal/mvtFiscal/src/br/com/moveti/erpmove
+svn+ssh://192.168.0.101/SVN/mvtFiscal
+
+
+
+2013-09-05T18:03:06.665844Z
+87
+henrique
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+357dac0e-748e-4657-90ec-a57edeff5dec
+
+fiscal
+dir
+

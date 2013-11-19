@@ -1,0 +1,262 @@
+annotation.processing.enabled=true
+annotation.processing.enabled.in.editor=false
+annotation.processing.run.all.processors=true
+annotation.processing.source.output=${build.generated.sources.dir}/ap-source-output
+application.title=mvtFiscal
+application.vendor=Jessica
+build.classes.dir=${build.dir}/classes
+build.classes.excludes=**/*.java,**/*.form
+# This directory is removed when the project is cleaned:
+build.dir=build
+build.generated.dir=${build.dir}/generated
+build.generated.sources.dir=${build.dir}/generated-sources
+# Only compile against the classpath explicitly listed here:
+build.sysclasspath=ignore
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+# Uncomment to specify the preferred debugger connection transport:
+#debug.transport=dt_socket
+debug.classpath=\
+    ${run.classpath}
+debug.test.classpath=\
+    ${run.test.classpath}
+# This directory is removed when the project is cleaned:
+dist.dir=dist
+dist.jar=${dist.dir}/mvtFiscal.jar
+dist.javadoc.dir=${dist.dir}/javadoc
+endorsed.classpath=
+excludes=
+file.reference.activation-1.1.jar=../../NotaFiscal/dist/lib/activation-1.1.jar
+file.reference.antlr-2.7.7.jar=../../NotaFiscal/dist/lib/antlr-2.7.7.jar
+file.reference.axiom-api-1.2.9.jar=../../NotaFiscal/dist/lib/axiom-api-1.2.9.jar
+file.reference.axiom-dom-1.2.9.jar=../../NotaFiscal/dist/lib/axiom-dom-1.2.9.jar
+file.reference.axiom-impl-1.2.9.jar=../../NotaFiscal/dist/lib/axiom-impl-1.2.9.jar
+file.reference.axis-ant.jar=../../NotaFiscal/dist/lib/axis-ant.jar
+file.reference.axis.jar=../../NotaFiscal/dist/lib/axis.jar
+file.reference.axis2-adb-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-adb-1.5.2.jar
+file.reference.axis2-adb-codegen-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-adb-codegen-1.5.2.jar
+file.reference.axis2-ant-plugin-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-ant-plugin-1.5.2.jar
+file.reference.axis2-clustering-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-clustering-1.5.2.jar
+file.reference.axis2-codegen-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-codegen-1.5.2.jar
+file.reference.axis2-corba-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-corba-1.5.2.jar
+file.reference.axis2-fastinfoset-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-fastinfoset-1.5.2.jar
+file.reference.axis2-java2wsdl-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-java2wsdl-1.5.2.jar
+file.reference.axis2-jaxbri-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-jaxbri-1.5.2.jar
+file.reference.axis2-jaxws-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-jaxws-1.5.2.jar
+file.reference.axis2-jibx-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-jibx-1.5.2.jar
+file.reference.axis2-json-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-json-1.5.2.jar
+file.reference.axis2-kernel-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-kernel-1.5.2.jar
+file.reference.axis2-metadata-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-metadata-1.5.2.jar
+file.reference.axis2-mtompolicy-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-mtompolicy-1.5.2.jar
+file.reference.axis2-saaj-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-saaj-1.5.2.jar
+file.reference.axis2-soapmonitor-servlet-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-soapmonitor-servlet-1.5.2.jar
+file.reference.axis2-spring-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-spring-1.5.2.jar
+file.reference.axis2-transport-http-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-transport-http-1.5.2.jar
+file.reference.axis2-transport-local-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-transport-local-1.5.2.jar
+file.reference.axis2-xmlbeans-1.5.2.jar=../../NotaFiscal/dist/lib/axis2-xmlbeans-1.5.2.jar
+file.reference.barbecue-1.5-beta1.jar=../../NotaFiscal/dist/lib/barbecue-1.5-beta1.jar
+file.reference.barcode4j-2.0.jar=../../NotaFiscal/dist/lib/barcode4j-2.0.jar
+file.reference.bcel-5.1.jar=../../NotaFiscal/dist/lib/bcel-5.1.jar
+file.reference.commons-codec-1.3.jar=../../NotaFiscal/dist/lib/commons-codec-1.3.jar
+file.reference.commons-collections-3.2.1.jar=../../NotaFiscal/dist/lib/commons-collections-3.2.1.jar
+file.reference.commons-digester-2.0.jar=../../NotaFiscal/dist/lib/commons-digester-2.0.jar
+file.reference.commons-discovery-0.2.jar=../../NotaFiscal/dist/lib/commons-discovery-0.2.jar
+file.reference.commons-fileupload-1.2.jar=../../NotaFiscal/dist/lib/commons-fileupload-1.2.jar
+file.reference.commons-httpclient-3.1.jar=../../NotaFiscal/dist/lib/commons-httpclient-3.1.jar
+file.reference.commons-io-1.4.jar=../../NotaFiscal/dist/lib/commons-io-1.4.jar
+file.reference.commons-logging-1.1.1.jar=../../NotaFiscal/dist/lib/commons-logging-1.1.1.jar
+file.reference.commons-logging-1.1.jar=../../NotaFiscal/dist/lib/commons-logging-1.1.jar
+file.reference.commons-net-2.0.jar=../../NotaFiscal/dist/lib/commons-net-2.0.jar
+file.reference.commons-net-ftp-2.0.jar=../../NotaFiscal/dist/lib/commons-net-ftp-2.0.jar
+file.reference.crnAtDb.jar=../../NotaFiscal/dist/lib/crnAtDb.jar
+file.reference.CronosComponents.jar=../../NotaFiscal/dist/lib/CronosComponents.jar
+file.reference.geronimo-annotation_1.0_spec-1.1.jar=../../NotaFiscal/dist/lib/geronimo-annotation_1.0_spec-1.1.jar
+file.reference.geronimo-jaxws_2.1_spec-1.0.jar=../../NotaFiscal/dist/lib/geronimo-jaxws_2.1_spec-1.0.jar
+file.reference.geronimo-jta_1.1_spec-1.1.jar=../../NotaFiscal/dist/lib/geronimo-jta_1.1_spec-1.1.jar
+file.reference.geronimo-saaj_1.3_spec-1.0.1.jar=../../NotaFiscal/dist/lib/geronimo-saaj_1.3_spec-1.0.1.jar
+file.reference.geronimo-stax-api_1.0_spec-1.0.1.jar=../../NotaFiscal/dist/lib/geronimo-stax-api_1.0_spec-1.0.1.jar
+file.reference.geronimo-ws-metadata_2.0_spec-1.1.2.jar=../../NotaFiscal/dist/lib/geronimo-ws-metadata_2.0_spec-1.1.2.jar
+file.reference.groovy-all-1.5.5.jar=../../NotaFiscal/dist/lib/groovy-all-1.5.5.jar
+file.reference.httpcore-4.0.jar=../../NotaFiscal/dist/lib/httpcore-4.0.jar
+file.reference.iText-2.1.7.jar=../../NotaFiscal/dist/lib/iText-2.1.7.jar
+file.reference.jalopy-1.5rc3.jar=../../NotaFiscal/dist/lib/jalopy-1.5rc3.jar
+file.reference.jasperreports-4.1.1.jar=../../NotaFiscal/dist/lib/jasperreports-4.1.1.jar
+file.reference.jasperreports-extensions-3.5.3.jar=../../NotaFiscal/dist/lib/jasperreports-extensions-3.5.3.jar
+file.reference.jaxb-api-2.1.jar=../../NotaFiscal/dist/lib/jaxb-api-2.1.jar
+file.reference.jaxb-impl-2.1.7.jar=../../NotaFiscal/dist/lib/jaxb-impl-2.1.7.jar
+file.reference.jaxb-xjc-2.1.7.jar=../../NotaFiscal/dist/lib/jaxb-xjc-2.1.7.jar
+file.reference.jaxen-1.1.1.jar=../../NotaFiscal/dist/lib/jaxen-1.1.1.jar
+file.reference.jaxen.jar=../../NotaFiscal/dist/lib/jaxen.jar
+file.reference.jaxrpc.jar=../../NotaFiscal/dist/lib/jaxrpc.jar
+file.reference.jcommon-1.0.16.jar=../../NotaFiscal/dist/lib/jcommon-1.0.16.jar
+file.reference.jettison-1.0-RC2.jar=../../NotaFiscal/dist/lib/jettison-1.0-RC2.jar
+file.reference.jibx-bind-1.2.1.jar=../../NotaFiscal/dist/lib/jibx-bind-1.2.1.jar
+file.reference.jibx-run-1.2.1.jar=../../NotaFiscal/dist/lib/jibx-run-1.2.1.jar
+file.reference.juli-6.0.16.jar=../../NotaFiscal/dist/lib/juli-6.0.16.jar
+file.reference.log4j-1.2.15.jar=../../NotaFiscal/dist/lib/log4j-1.2.15.jar
+file.reference.log4j-1.2.8.jar=../../NotaFiscal/dist/lib/log4j-1.2.8.jar
+file.reference.mail-1.4.jar=../../NotaFiscal/dist/lib/mail-1.4.jar
+file.reference.mail.jar=../../NotaFiscal/dist/lib/mail.jar
+file.reference.mysql-connector-java-5.1.6-bin.jar=../../NotaFiscal/dist/lib/mysql-connector-java-5.1.6-bin.jar
+file.reference.neethi-2.0.4.jar=../../NotaFiscal/dist/lib/neethi-2.0.4.jar
+file.reference.poi-3.5-FINAL.jar=../../NotaFiscal/dist/lib/poi-3.5-FINAL.jar
+file.reference.poi-3.8-beta5-20111217.jar=../../NotaFiscal/dist/lib/poi-3.8-beta5-20111217.jar
+file.reference.poi-examples-3.8-beta5-20111217.jar=../../NotaFiscal/dist/lib/poi-examples-3.8-beta5-20111217.jar
+file.reference.poi-excelant-3.8-beta5-20111217.jar=../../NotaFiscal/dist/lib/poi-excelant-3.8-beta5-20111217.jar
+file.reference.poi-ooxml-3.8-beta5-20111217.jar=../../NotaFiscal/dist/lib/poi-ooxml-3.8-beta5-20111217.jar
+file.reference.poi-ooxml-schemas-3.8-beta5-20111217.jar=../../NotaFiscal/dist/lib/poi-ooxml-schemas-3.8-beta5-20111217.jar
+file.reference.poi-scratchpad-3.8-beta5-20111217.jar=../../NotaFiscal/dist/lib/poi-scratchpad-3.8-beta5-20111217.jar
+file.reference.postgresql-8.4-701.jdbc4.jar=../../NotaFiscal/dist/lib/postgresql-8.4-701.jdbc4.jar
+file.reference.tribes-6.0.16.jar=../../NotaFiscal/dist/lib/tribes-6.0.16.jar
+file.reference.woden-api-1.0M8.jar=../../NotaFiscal/dist/lib/woden-api-1.0M8.jar
+file.reference.woden-impl-dom-1.0M8.jar=../../NotaFiscal/dist/lib/woden-impl-dom-1.0M8.jar
+file.reference.wsdl4j-1.5.1.jar=../../NotaFiscal/dist/lib/wsdl4j-1.5.1.jar
+file.reference.wsdl4j-1.6.2.jar=../../NotaFiscal/dist/lib/wsdl4j-1.6.2.jar
+file.reference.wstx-asl-3.2.9.jar=../../NotaFiscal/dist/lib/wstx-asl-3.2.9.jar
+file.reference.xalan-2.7.1.jar=../../NotaFiscal/dist/lib/xalan-2.7.1.jar
+file.reference.xercesImpl-2.8.1.jar=../../NotaFiscal/dist/lib/xercesImpl-2.8.1.jar
+file.reference.xml-resolver-1.2.jar=../../NotaFiscal/dist/lib/xml-resolver-1.2.jar
+file.reference.xmlbeans-2.3.0.jar=../../NotaFiscal/dist/lib/xmlbeans-2.3.0.jar
+file.reference.XmlSchema-1.4.3.jar=../../NotaFiscal/dist/lib/XmlSchema-1.4.3.jar
+file.reference.xstream-1.3.1.jar=../../NotaFiscal/dist/lib/xstream-1.3.1.jar
+includes=**
+jar.compress=false
+javac.classpath=\
+    ${file.reference.activation-1.1.jar}:\
+    ${file.reference.antlr-2.7.7.jar}:\
+    ${file.reference.axiom-api-1.2.9.jar}:\
+    ${file.reference.axiom-dom-1.2.9.jar}:\
+    ${file.reference.axiom-impl-1.2.9.jar}:\
+    ${file.reference.axis-ant.jar}:\
+    ${file.reference.axis.jar}:\
+    ${file.reference.axis2-adb-1.5.2.jar}:\
+    ${file.reference.axis2-adb-codegen-1.5.2.jar}:\
+    ${file.reference.axis2-ant-plugin-1.5.2.jar}:\
+    ${file.reference.axis2-clustering-1.5.2.jar}:\
+    ${file.reference.axis2-codegen-1.5.2.jar}:\
+    ${file.reference.axis2-corba-1.5.2.jar}:\
+    ${file.reference.axis2-fastinfoset-1.5.2.jar}:\
+    ${file.reference.axis2-java2wsdl-1.5.2.jar}:\
+    ${file.reference.axis2-jaxbri-1.5.2.jar}:\
+    ${file.reference.axis2-jaxws-1.5.2.jar}:\
+    ${file.reference.axis2-jibx-1.5.2.jar}:\
+    ${file.reference.axis2-json-1.5.2.jar}:\
+    ${file.reference.axis2-kernel-1.5.2.jar}:\
+    ${file.reference.axis2-metadata-1.5.2.jar}:\
+    ${file.reference.axis2-mtompolicy-1.5.2.jar}:\
+    ${file.reference.axis2-saaj-1.5.2.jar}:\
+    ${file.reference.axis2-soapmonitor-servlet-1.5.2.jar}:\
+    ${file.reference.axis2-spring-1.5.2.jar}:\
+    ${file.reference.axis2-transport-http-1.5.2.jar}:\
+    ${file.reference.axis2-transport-local-1.5.2.jar}:\
+    ${file.reference.axis2-xmlbeans-1.5.2.jar}:\
+    ${file.reference.barbecue-1.5-beta1.jar}:\
+    ${file.reference.barcode4j-2.0.jar}:\
+    ${file.reference.bcel-5.1.jar}:\
+    ${file.reference.commons-codec-1.3.jar}:\
+    ${file.reference.commons-collections-3.2.1.jar}:\
+    ${file.reference.commons-digester-2.0.jar}:\
+    ${file.reference.commons-discovery-0.2.jar}:\
+    ${file.reference.commons-fileupload-1.2.jar}:\
+    ${file.reference.commons-httpclient-3.1.jar}:\
+    ${file.reference.commons-io-1.4.jar}:\
+    ${file.reference.commons-logging-1.1.1.jar}:\
+    ${file.reference.commons-logging-1.1.jar}:\
+    ${file.reference.commons-net-2.0.jar}:\
+    ${file.reference.commons-net-ftp-2.0.jar}:\
+    ${file.reference.crnAtDb.jar}:\
+    ${file.reference.CronosComponents.jar}:\
+    ${file.reference.geronimo-annotation_1.0_spec-1.1.jar}:\
+    ${file.reference.geronimo-jaxws_2.1_spec-1.0.jar}:\
+    ${file.reference.geronimo-jta_1.1_spec-1.1.jar}:\
+    ${file.reference.geronimo-saaj_1.3_spec-1.0.1.jar}:\
+    ${file.reference.geronimo-stax-api_1.0_spec-1.0.1.jar}:\
+    ${file.reference.geronimo-ws-metadata_2.0_spec-1.1.2.jar}:\
+    ${file.reference.groovy-all-1.5.5.jar}:\
+    ${file.reference.httpcore-4.0.jar}:\
+    ${file.reference.iText-2.1.7.jar}:\
+    ${file.reference.jalopy-1.5rc3.jar}:\
+    ${file.reference.jasperreports-4.1.1.jar}:\
+    ${file.reference.jasperreports-extensions-3.5.3.jar}:\
+    ${file.reference.jaxb-api-2.1.jar}:\
+    ${file.reference.jaxb-impl-2.1.7.jar}:\
+    ${file.reference.jaxb-xjc-2.1.7.jar}:\
+    ${file.reference.jaxen-1.1.1.jar}:\
+    ${file.reference.jaxen.jar}:\
+    ${file.reference.jaxrpc.jar}:\
+    ${file.reference.jcommon-1.0.16.jar}:\
+    ${file.reference.jettison-1.0-RC2.jar}:\
+    ${file.reference.jibx-bind-1.2.1.jar}:\
+    ${file.reference.jibx-run-1.2.1.jar}:\
+    ${file.reference.juli-6.0.16.jar}:\
+    ${file.reference.log4j-1.2.15.jar}:\
+    ${file.reference.log4j-1.2.8.jar}:\
+    ${file.reference.mail-1.4.jar}:\
+    ${file.reference.mail.jar}:\
+    ${file.reference.mysql-connector-java-5.1.6-bin.jar}:\
+    ${file.reference.neethi-2.0.4.jar}:\
+    ${file.reference.poi-3.5-FINAL.jar}:\
+    ${file.reference.poi-3.8-beta5-20111217.jar}:\
+    ${file.reference.poi-examples-3.8-beta5-20111217.jar}:\
+    ${file.reference.poi-excelant-3.8-beta5-20111217.jar}:\
+    ${file.reference.poi-ooxml-3.8-beta5-20111217.jar}:\
+    ${file.reference.poi-ooxml-schemas-3.8-beta5-20111217.jar}:\
+    ${file.reference.poi-scratchpad-3.8-beta5-20111217.jar}:\
+    ${file.reference.postgresql-8.4-701.jdbc4.jar}:\
+    ${file.reference.tribes-6.0.16.jar}:\
+    ${file.reference.woden-api-1.0M8.jar}:\
+    ${file.reference.woden-impl-dom-1.0M8.jar}:\
+    ${file.reference.wsdl4j-1.5.1.jar}:\
+    ${file.reference.wsdl4j-1.6.2.jar}:\
+    ${file.reference.wstx-asl-3.2.9.jar}:\
+    ${file.reference.xalan-2.7.1.jar}:\
+    ${file.reference.xercesImpl-2.8.1.jar}:\
+    ${file.reference.xml-resolver-1.2.jar}:\
+    ${file.reference.xmlbeans-2.3.0.jar}:\
+    ${file.reference.XmlSchema-1.4.3.jar}:\
+    ${file.reference.xstream-1.3.1.jar}:\
+    ${libs.swing-app-framework.classpath}:\
+    ${reference.crnComp-1.jar}
+# Space-separated list of extra javac options
+javac.compilerargs=
+javac.deprecation=false
+javac.processorpath=\
+    ${javac.classpath}
+javac.source=1.6
+javac.target=1.6
+javac.test.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}:\
+    ${libs.junit_4.classpath}
+javac.test.processorpath=\
+    ${javac.test.classpath}
+javadoc.additionalparam=
+javadoc.author=false
+javadoc.encoding=${source.encoding}
+javadoc.noindex=false
+javadoc.nonavbar=false
+javadoc.notree=false
+javadoc.private=false
+javadoc.splitindex=true
+javadoc.use=true
+javadoc.version=false
+javadoc.windowtitle=
+main.class=
+manifest.file=manifest.mf
+meta.inf.dir=${src.dir}/META-INF
+mkdist.disabled=false
+platform.active=default_platform
+reference.crnComp-1.jar=${project.crnComp-1}/dist/crnComp.jar
+run.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+# Space-separated list of JVM arguments used when running the project
+# (you may also define separate properties like run-sys-prop.name=value instead of -Dname=value
+# or test-sys-prop.name=value to set system properties for unit tests):
+run.jvmargs=
+run.test.classpath=\
+    ${javac.test.classpath}:\
+    ${build.test.classes.dir}
+source.encoding=UTF-8
+src.dir=src
+test.src.dir=test

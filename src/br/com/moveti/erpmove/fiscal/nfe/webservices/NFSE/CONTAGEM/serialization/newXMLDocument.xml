@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnviarLoteRpsResposta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.abrasf.org.br/ABRASF/arquivos/nfse.xsd">
+    <NumeroLote>1</NumeroLote>
+    <DataRecebimento>2013-06-26T14:36:34.0139403-03:00</DataRecebimento>
+    <Protocolo>755826</Protocolo>
+    <Signature Id="SMF" xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                <DigestValue>MxAN3Em3Gcb7l8qEnNcx1QRzNq4=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>Hz1/IN3w7UYlc3So/1nwbv7ZBOcgbl2fIqAl3q67iDyCrA59rT2YBKu+qi+A/sVLZN2q5e+mk2SOd1KyVhAT1iltaY0c8tNCtdaaWaXmHXdWEcjgqJJJzHZonPpXpm0l8ul4pjhOqr06LjJRwaQUz2gocO3ewSoZxqDFFXOuJx04vpBOCvDBp1B7NI7gJ3les9z64xz5KMij226ieX3dw/mdBsGmX862KRBdSE1Y10/LdD4gPkgbBVJwpF0RB1+wLg1tELYKtl+YlJYxMTdEzKc+3opfe3WKjVi3hR8zmUFIojuPyX7DnCdId8fI7fgDUFFfpKCdLvQwZm5N91U21w==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>MIIC8jCCAdqgAwIBAgIQFMZ23Mpdr59He8oPepgdwTANBgkqhkiG9w0BAQUFADAiMSAwHgYDVQQDExdDZXRpbDMwMDE5LmNldGlsLmNvbS5icjAeFw0xMTAyMDExMzAwNDhaFw0xMjAyMDEwMDAwMDBaMCIxIDAeBgNVBAMTF0NldGlsMzAwMTkuY2V0aWwuY29tLmJyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoZJEKewDWHQmXaWGC6GODjYqr0jNJN1S92u+sZ35UjsycW+dfZXFJ4c5mdWzs7DtyBpEsrlghO04JLHU8bQ7bNBXZtzo9xjdPBdMwx8V+ag24BalX35Mi9FE4jb9bVdBu+1GC+/GQR1mlsoi+DePk6L25D5OQE4wjEBm6EY9E+OWPRV3glJLBsqPETCcbGd+JNjksI/H+3sP122bjMEbYAFh3HO36cpVuxaBxKDmTuGL/JoGGUz95cr7DfKIRQBQZqj+ZCFfu1FWKgc7kHRSj0G7TPi17zfJLHpUCHUhG94x5peks9Mlgcpj7KGTiaFrRxPrD+AqUXe9D4egx4nqkwIDAQABoyQwIjALBgNVHQ8EBAMCBDAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDQYJKoZIhvcNAQEFBQADggEBAFXTz7P4sk0GcK7238J7PpQf2P9XLNPgYOGJ7vVtaphqs6G3tUoJMy99ziAozJAzx1Ub3TmJZ9z4ksei1epbi7OgyqO2uqK/8+ONQLKkmi2LZ4cddXEOxfcbSfWdT2QGl3iTSAf1EFL6/Pj5EYF+S8RS1MYfUEuoKTE4EvOGmczi8aFvwwQiUjjThFq9/Zrhn/3GsOhCTJUK2qDh+5qpyoz3g2X5Lx+e7LBmYPcLWqPo/xk9crn8Pz0AqDI8nIEh7TvKl3a2k30AB6hq18OPVXamv5uGSyWCuR1Wn6olo8R2alREZHZrg81NAmw7o6I3MyRfDFFWEAwo8NNSvoHNjv8=</X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+</EnviarLoteRpsResposta>
